@@ -1,6 +1,6 @@
-INSERT INTO burgers (name) VALUES ('BBQ bacon cheddar burger');
-INSERT INTO burgers (name) VALUES ('Mushroom swiss burger');
-INSERT INTO burgers (name, devoured) VALUES ('Chili cheese burger', true);
-INSERT INTO burgers (name, devoured) VALUES ('Hamburger', true);
-INSERT INTO burgers (name, devoured) VALUES ('Whataburger', true);
-INSERT INTO burgers (name) VALUES ('Veggie burger');
+INSERT INTO burgers (name) VALUES ('fajita chicken taco');
+INSERT INTO burgers (name) VALUES ('chorizo, egg, & cheese taco');
+INSERT INTO burgers (name, devoured) VALUES ('carne guisada taco', true);
+INSERT INTO burgers (name, devoured) VALUES ('tacos al carbon', true);
+INSERT INTO burgers (name, devoured) VALUES ('fish taco', true);
+INSERT INTO burgers (name) VALUES ('barbacoa taco');
