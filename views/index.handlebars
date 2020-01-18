@@ -1,9 +1,9 @@
-<h1>Burgers!</h1>
+<h1>Taco Time!</h1>
 <img src="assets/img/burger.png" class="burger">
 
 <div class="container">
   <div class="devour">
-    <h2>Burgers that need to be eaten!</h2>
+    <h2>Tacos that need to be eaten!</h2>
 
     <ul>
       {{#each burgers}}
@@ -15,7 +15,7 @@
   </div>
 
   <div class="devoured">
-    <h2>Burgers that are devoured!</h2>
+    <h2>Tacos that are devoured!</h2>
 
     <ul>
       {{#each burgers}}
@@ -27,11 +27,11 @@
   </div>
 </div>
 
-<h2>Add a Burger</h2>
+<h2>Add a Taco</h2>
 <form class="create-form">
 
   <div class="form-group">
-    <label for="ca">Burger Name:</label>
+    <label for="ca">Taco Name:</label>
     <input type="text" id="ca" name="name">
   </div>
 
@@ -41,5 +41,5 @@
     <input type="radio" name="devoured" value="0"> Needs to be eaten
   </div>
 
-  <button type="submit">Add Burger</button>
+  <button type="submit">Add Taco</button>
 </form>
